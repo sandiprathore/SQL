@@ -1,11 +1,8 @@
-
-# fetchone method is only for print the first row of mysql databse table 
-
 # Syntax:
 
 import mysql.connector
 mydb = mysql.connector.connect(
-  host="localhost",
+  host="host",
   user="username",
   password="password",
   database="DB_name",
@@ -17,7 +14,6 @@ myresult = mycursor.fetchone()
 print(myresult)
 
 #===============================================================
-
 # Example 
 
 import mysql.connector

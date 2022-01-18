@@ -1,4 +1,3 @@
-# Print a particular column from a table 
 # Syntax:
 
 import mysql.connector
@@ -10,7 +9,7 @@ mydb = mysql.connector.connect(
   port=3306
 )
 mycursor = mydb.cursor()
-mycursor.execute("SELECT column_name FROM internship")
+mycursor.execute("SELECT column_name FROM table_name")
 myresult = mycursor.fetchall()
 for x in myresult:
   print(x)

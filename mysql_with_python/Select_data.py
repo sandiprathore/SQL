@@ -1,9 +1,8 @@
-# Select table from mysql databse  
 # syntax: 
 
 import mysql.connector
 mydb = mysql.connector.connect(
-  host="localhost",
+  host="host",
   user="username",
   password="password",
   database="DB_name",

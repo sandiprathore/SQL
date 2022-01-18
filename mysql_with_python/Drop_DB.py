@@ -1,5 +1,3 @@
-# Drop database in mysql
-
 # Syntax:
 
 import mysql.connector
@@ -13,10 +11,8 @@ mycursor = mydb.cursor()
 mycursor.execute("DROP DATABASE DB_name;")
 
 #======================================================================
+# Example
 
-# example
-
- 
 import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",

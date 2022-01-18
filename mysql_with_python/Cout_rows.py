@@ -1,4 +1,3 @@
-# Count all rows of mysql databse table using python 
 # syntax:
 
 import mysql.connector

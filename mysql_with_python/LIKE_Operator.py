@@ -1,9 +1,8 @@
- # The LIKE operator is used in a WHERE clause to search for a specified pattern in a column
  # Syntax:
 
 import mysql.connector
 mydb = mysql.connector.connect(
-  host="localhost",
+  host="host",
   user="username",
   password="password",
   database="DB_name",

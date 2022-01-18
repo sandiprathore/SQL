@@ -1,10 +1,8 @@
-# Delete table is mysql databse using python 
-
 # Syntax:
 
 import mysql.connector
 mydb = mysql.connector.connect(
-  host="localhost",
+  host="host",
   user="username",
   password="password",
   database="DB_name",
@@ -17,7 +15,6 @@ mydb.commit()
 print(mycursor.rowcount, "record(s) deleted")
 
 #================================================================
-
 # Example: 
 
 import mysql.connector

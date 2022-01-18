@@ -1,16 +1,15 @@
-# Print table 
 # Syntax: 
 
 import mysql.connector
 mydb = mysql.connector.connect(
-  host="localhost",
+  host="host",
   user="username",
   password="password",
   database="DB_name",
   port=3306
 )
 mycursor = mydb.cursor()
-mycursor.execute("SELECT * FROM employee_data")
+mycursor.execute("SELECT * FROM table_name")
 myresult = mycursor.fetchall()
 for x in myresult:
   print(x)

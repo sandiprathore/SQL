@@ -1,9 +1,8 @@
-# The ORDER BY keyword is used to sort the result-set in ascending or descending order.
 # Syntax:
 
 import mysql.connector
 mydb = mysql.connector.connect(
-  host="localhost",
+  host="host",
   user="username",
   password="password",
   database="DB_name",

@@ -1,10 +1,8 @@
-# Insert a single record in mysql databse table
-
 # Syntax
 
 import mysql.connector
 mydb = mysql.connector.connect(
-  host="localhost",
+  host="host",
   user="username",
   password="password",
   database="DB_name",

@@ -15,7 +15,6 @@ for x in mycursor:
 #==================================================================
 # Example
 
-
 import mysql.connector
 mydb = mysql.connector.connect(
   host="localhost",

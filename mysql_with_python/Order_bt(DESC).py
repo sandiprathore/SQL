@@ -1,9 +1,8 @@
-# DESC keyword is use to short table table in reverse order
 # Syntax: 
 
 import mysql.connector
 mydb = mysql.connector.connect(
-  host="localhost",
+  host="host",
   user="username",
   password="password",
   database="DB_name",

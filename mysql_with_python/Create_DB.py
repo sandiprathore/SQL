@@ -1,4 +1,3 @@
-# create database in mysql using python 
 # syntax:
 
 import mysql.connector
